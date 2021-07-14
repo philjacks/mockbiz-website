@@ -854,4 +854,122 @@ footer {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+h2 {
+  color: #4d194d;
+}
+
+@-webkit-keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.faq-header {
+  height: 60vh;
+  background-image: url("../img/faq.jpg");
+  background-color: rgba(77, 25, 77, 0.3);
+  background-blend-mode: multiply;
+  background-position-y: 30%;
+  background-size: cover;
+}
+
+.accordian-outer {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.accordian-outer .accordian {
+  width: 60%;
+  margin: 6rem;
+  text-align: center;
+}
+
+.accordian-outer h3 {
+  color: #4d194d;
+  font-size: 1.7rem;
+}
+
+.accordian-outer .question-group {
+  margin-bottom: 3rem;
+}
+
+.accordian-outer .question-group h3 {
+  margin-bottom: 1rem;
+}
+
+.accordian-outer details {
+  border-bottom: 1px solid #4d194d;
+}
+
+.accordian-outer details p {
+  padding: 0rem 1rem 1rem 0;
+  text-align: left;
+}
+
+.accordian-outer details[open] summary ~ * {
+  -webkit-animation: sweep 0.6s;
+          animation: sweep 0.6s;
+}
+
+summary {
+  width: 100%;
+  padding: 1rem 1rem 1rem 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+  text-align: left;
+}
+
+summary .chevron {
+  width: 1rem;
+}
+
+summary:hover {
+  cursor: pointer;
+  color: #4d194d;
+}
+
+.active {
+  color: #4d194d;
+  font-size: 1.2rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.arrow-flip {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
 /*# sourceMappingURL=styles.css.map */

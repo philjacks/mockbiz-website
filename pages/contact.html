@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <title>Mockbiz | Contact</title>
+  </head>
+  <body class="contact-body">
+    <header class="contact-header">
+      <nav class="fixed-nav">
+        <div class="clear-nav">
+        <a href="../index.html" id="home">MOCKBIZ</a>
+        
+          <img class="mob-icon" src="../img/icons/menu-white.png" alt="">
+        
+        
+        <ul class="nav-items">
+          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="our-story.html">OUR STORY</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      
+    </div>
+
+    <div class="contact-heading">
+      <h1>GET IN TOUCH</h1>
+    
+    </div>
+    </header>
+
+    <main>
+      
+      <section class="statement">
+        <p>Fill out the form below to send us an email or you can give us a call on: 222-111-456</p>
+      </section>
+
+      <div class="form-wrap">
+      <form action="#" class="grid-form">
+        
+        <input type="text" placeholder="First Name*" id="first-name">
+        <div class="alert"><p id="first-name-error"></p></div>
+      
+        <input type="text" placeholder="Last Name*" id="last-name">
+        <div class="alert"><p id="last-name-error"></p></div>
+
+        <input type="email" placeholder="Email*" id="contact-form-email">
+        <div class="alert"><p id="contact-form-email-error"></p></div>
+        
+
+        <input type="tel" placeholder="Phone Number" id="phone">
+        <div class="alert"><p id="phone-error"></p></div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here and we will get back to you ASAP"></textarea>
+
+        <input type="submit" class="btn" id="contact-form-submit">
+      </form>
+    </div>
+
+    <section class="find-us">
+    <div id="map"></div>
+    <div class="address">
+      <a href="#" id="home">MOCKBIZ</a>
+      <p>321 East Avenue / Fakesville, FA15 2B3</p>
+      <p>222-111-456 / info@mockbiz.com</p>
+    </div>
+  </section>
+      
+
+           
+
+      <section class="jumbo">
+        
+          <h3>Need an answer to something now?</h3>
+          
+          <a href="contact.html">Check Our FAQ</a>
+        
+      </section>
+    </main> 
+
+    <footer>
+      <div class="socials">
+        <a href=""><img src="../img/icons/facebook.png" alt="" class="icon"></a>
+        <a href=""><img src="../img/icons/twitter.png" alt="" class="icon"></a>
+        <a href=""><img src="../img/icons/linkedin.png" alt="" class="icon"></a>
+      </div>
+
+      <div class="footer-details">
+        <h3>Contact Us Directly</h3>
+        <p>National calls: <a href="tel: 0111 555 444"> 0111 555 444</a></p>
+        <p>International calls: <a href="tel: 0111 555 333"> 0111 555 333</a></p>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <p>&copy; 2021 | Created by <a href="www.philjacks.com">Phil Jacks</a></p>
+    </div>
+
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9MDyVPKn8320wquOHduMExWDSc_Drd5w&callback=initMap">
+        </script>
+
+    <script>
+      // Google Maps
+      function initMap() {
+        let options = {
+          zoom: 8,
+          center: { lat: 54.8959, lng: -1.8919 }
+        }
+
+        let map = new google.maps.Map(document.getElementById('map'), options);
+
+        let marker = new google.maps.Marker({
+            position: { lat: 54.9117, lng: -1.9186 },
+            map: map
+        });
+      }
+    </script>
+    <script src="../js/contact-form.js"></script>
+    <script src="../js/nav.js"></script>
+    
+  </body>
+</html>

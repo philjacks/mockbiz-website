@@ -1,0 +1,180 @@
+.home-header {
+  height: 90vh;
+  background-color: rgba(77, 25, 77, 0.3);
+  background-image: url("../img/suits.jpg");
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0 0 15rem 0;
+}
+
+#home {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+}
+
+.trustpilot {
+  min-height: 40vh;
+  background-color: #dee2e6;
+  text-align: center;
+  padding: 4rem 0;
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    width: 30rem;
+    margin: 0 auto 2rem;
+  }
+
+  span {
+    color: $primary-color;
+  }
+
+  .carousel-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .carousel-container {
+      width: 1425px;
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+
+      .carousel-slider {
+        display: flex;
+
+        .card {
+          position: relative;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          border-radius: 5px;
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .arrow {
+    z-index: 3;
+    height: 30px;
+    width: 30px;
+    margin: 1rem;
+    filter: invert(46%) sepia(25%) saturate(172%) hue-rotate(166deg)
+      brightness(91%) contrast(85%);
+  }
+
+  .arrow:hover {
+    cursor: pointer;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(241deg)
+      brightness(100%) contrast(104%);
+  }
+}
+
+.mail-list {
+  padding: 2.5rem;
+  background-color: rgba(77, 25, 77, 0.8);
+  border-radius: 15rem 0 0 0;
+
+  margin: 0 auto;
+  text-align: center;
+
+  h2 {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  #mail-list-email {
+    width: 30rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgba(77, 25, 77, 0);
+    color: white;
+    padding-left: 1rem;
+    margin-bottom: 0.4rem;
+
+    &::placeholder {
+      color: white;
+      letter-spacing: 1px;
+    }
+  }
+
+  #mail-list-submit {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    color: $primary-color;
+    font-weight: 700;
+    margin-left: 1rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  #mail-list-alert {
+    color: white;
+    padding: 0 0 1rem 0;
+  }
+}
+
+.make-deal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 60vh;
+  background-color: white;
+  background-image: url("../img/handshake.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  padding: 4rem;
+
+  .choice-text {
+    height: 100%;
+    width: 50%;
+    border-left: 1px solid $primary-color;
+    padding: 2rem;
+
+    h3 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      color: $secondary-color;
+    }
+
+    span {
+      color: $primary-color;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+
+    .caption {
+      font-size: 2rem;
+    }
+  }
+}
+
+.statement {
+  padding: 2rem;
+  text-align: center;
+  background-color: $primary-color;
+  border-radius: 0 0 25rem 25rem;
+
+  p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: white;
+    line-height: 2rem;
+    letter-spacing: 0.7px;
+  }
+}

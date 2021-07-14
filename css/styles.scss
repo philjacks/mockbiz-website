@@ -1,0 +1,176 @@
+// Styles used across all pages
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Rubik:wght@400;500;700&display=swap");
+
+$primary-color: #4d194d;
+$secondary-color: #253237;
+$big-font: 1.4rem;
+$spacious-line: 2rem;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+  color: $secondary-color;
+  background-color: #dee2e6;
+}
+
+.fixed-nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.desk-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(77, 25, 77, 0.8);
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  padding: 2rem 4rem;
+  height: 5rem;
+  color: white;
+  z-index: 3;
+}
+
+.clear-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+  height: 5rem;
+  width: 100%;
+  color: white;
+  z-index: 3;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+
+  li {
+    a {
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      padding: 0.5rem 1rem;
+      opacity: 0.8;
+      height: 100%;
+
+      &:hover {
+        opacity: 1;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}
+
+.mob-icon {
+  display: none;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.jumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-color: #dee2e6;
+  padding: 4rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2rem;
+
+    &:hover {
+      background-color: rgba(77, 25, 77, 0.9);
+      border-bottom: 2px solid $primary-color;
+      transform: scale(1.1);
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  background-color: #495057;
+  border-top: 1px solid $primary-color;
+}
+
+.socials {
+  padding: 1rem;
+}
+
+.icon {
+  height: 70px;
+  margin-right: 0.5rem;
+
+  &:hover {
+    transform: scale(1.1);
+
+    border-radius: 10px;
+  }
+}
+
+.footer-details {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  h3 {
+    color: white;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: white;
+    line-height: 1.5rem;
+
+    a {
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.copyright {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+@import "home";

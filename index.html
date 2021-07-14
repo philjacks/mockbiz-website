@@ -5,10 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="scss/styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Mockbiz | Home</title>
   </head>
 
-  <body></body>
+  <body>
+    <header class="home-header">
+      <nav class="fixed-nav desk-nav">
+        <div class="clear-nav">
+          <a href="#" id="home">MOCKBIZ</a>
+
+          <img class="mob-icon" src="img/icons/menu-white.png" alt="" />
+
+          <ul class="nav-items">
+            <li><a href="pages/services.html">SERVICES</a></li>
+            <li><a href="pages/our-story.html">OUR STORY</a></li>
+            <li><a href="pages/faq.html">FAQ</a></li>
+            <li><a href="pages/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="trustpilot">
+        <h2>See what our <span>clients</span> say about us</h2>
+        <img src="img/trustpilot-logo.png" alt="" id="tp-logo" />
+
+        <div class="carousel-wrap">
+          <img
+            src="img/icons/arrow-left.svg"
+            alt=""
+            class="arrow"
+            id="prev-arrow"
+          />
+          <div class="carousel-container">
+            <div class="carousel-slider">
+              <img
+                src="img/cards/card6.jpg"
+                id="last-clone"
+                class="card"
+                alt=""
+              />
+              <img src="img/cards/card1.jpg" alt="" class="card" />
+              <img src="img/cards/card2.jpg" alt="" class="card" />
+              <img src="img/cards/card3.jpg" alt="" class="card" />
+              <img src="img/cards/card4.jpg" alt="" class="card" />
+              <img src="img/cards/card5.jpg" alt="" class="card" />
+              <img src="img/cards/card6.jpg" alt="" class="card" />
+              <img
+                src="img/cards/card1.jpg"
+                id="first-clone"
+                class="card"
+                alt=""
+              />
+              <img src="img/cards/card2.jpg" id="" class="card" alt="" />
+            </div>
+          </div>
+          <img
+            src="img/icons/arrow-right.svg"
+            alt=""
+            class="arrow"
+            id="next-arrow"
+          />
+        </div>
+
+        <p>Rated <strong>4.9</strong> / 5 based on <u>18,321 reviews.</u></p>
+      </section>
+
+      <section>
+        <form class="mail-list">
+          <h2>Join our mailing list to keep up to date</h2>
+          <input
+            type="email"
+            placeholder="Email address"
+            id="mail-list-email"
+          />
+          <div id="mail-list-alert"></div>
+          <input type="submit" id="mail-list-submit" />
+        </form>
+      </section>
+
+      <section class="make-deal">
+        <div class="choice-text">
+          <h3>Make the <span>right choice</span></h3>
+          <p>
+            We will work hard for you every step of the way. No matter how big
+            your ambitions you can rest assured knowing you're in great hands.
+          </p>
+          <p class="caption">Dream big. Worry little.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="socials">
+        <a href=""><img src="img/icons/facebook.png" alt="" class="icon" /></a>
+        <a href=""><img src="img/icons/twitter.png" alt="" class="icon" /></a>
+        <a href=""><img src="img/icons/linkedin.png" alt="" class="icon" /></a>
+      </div>
+
+      <div class="footer-details">
+        <h3>Contact Us Directly</h3>
+        <p>National calls: <a href="tel: 0111 555 444"> 0111 555 444</a></p>
+        <p>
+          International calls: <a href="tel: 0111 555 333"> 0111 555 333</a>
+        </p>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <p>&copy; 2021 | Created by <a href="www.philjacks.com">Phil Jacks</a></p>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/nav.js"></script>
+  </body>
 </html>

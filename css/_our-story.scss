@@ -1,0 +1,203 @@
+$primary-color: #4d194d;
+$secondary-color: #253237;
+$big-font: 1.4rem;
+$spacious-line: 2rem;
+
+.our-story-body {
+  background-color: white;
+  text-align: center;
+  // overflow-x: hidden;
+
+  h2 {
+    width: 30%;
+    color: $primary-color;
+    margin: 3rem auto;
+    padding: 2rem;
+    font-size: 2rem;
+    border-bottom: 1px solid $secondary-color;
+  }
+}
+
+.our-story-header {
+  height: 80vh;
+  background-image: url("../img/turbines.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.our-story-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 40%;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  letter-spacing: 1px;
+
+  h1 {
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+}
+
+.our-story-intro {
+  display: flex;
+  align-items: center;
+  padding: 6rem 2rem;
+  background-color: white;
+
+  .our-story-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-right: 4rem;
+
+    h3 {
+      color: $primary-color;
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-size: $big-font;
+    }
+  }
+
+  .team-pic {
+    width: 50%;
+    border-radius: 20px;
+  }
+}
+
+.bright-ideas {
+  background-color: #dee2e6;
+
+  .bulb-pic {
+    width: 100%;
+  }
+
+  .bright-ideas-text {
+    text-align: center;
+    padding: 3rem 0 0 0;
+
+    h3 {
+      color: $primary-color;
+      font-size: 1.6rem;
+      margin: 0 0 2rem 0;
+    }
+
+    p {
+      font-size: $big-font;
+      width: 70%;
+      margin: 3rem auto;
+    }
+  }
+  .bright-ideas-subtext {
+    text-align: center;
+    padding: 2rem;
+
+    h3 {
+      color: $primary-color;
+      font-size: 1.6rem;
+      margin: 0 0 2rem 0;
+    }
+
+    p {
+      font-size: $big-font;
+      width: 70%;
+      margin: 0 auto;
+      padding: 0 0 2rem;
+    }
+  }
+}
+
+.began {
+  display: flex;
+  align-items: center;
+  padding: 6rem 2rem;
+  background-color: white;
+
+  .began-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 4rem;
+
+    h3 {
+      color: $primary-color;
+      font-size: 1.6rem;
+      margin: 2rem 0;
+    }
+
+    p {
+      font-size: $big-font;
+    }
+  }
+
+  .began-pic {
+    width: 50%;
+    border-radius: 20px;
+  }
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+
+  .card {
+    width: 30%;
+    padding: 0;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    img {
+      width: 100%;
+      border-radius: 20px 20px 0 0;
+    }
+
+    .card-text {
+      padding: 2rem;
+
+      h4 {
+        color: $primary-color;
+        padding: 1rem 1rem 1rem 0;
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+        width: 80%;
+        margin-bottom: 4rem;
+      }
+
+      a {
+        text-decoration: none;
+        background-color: $primary-color;
+        color: white;
+        padding: 0.8rem;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 3rem;
+
+        &:hover {
+          background-color: rgba(77, 25, 77, 0.9);
+          border-bottom: 2px solid $primary-color;
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

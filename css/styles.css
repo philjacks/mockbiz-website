@@ -620,4 +620,238 @@ footer {
   font-size: 1.6rem;
   margin-bottom: 2rem;
 }
+
+.our-story-body {
+  background-color: white;
+  text-align: center;
+}
+
+.our-story-body h2 {
+  width: 30%;
+  color: #4d194d;
+  margin: 3rem auto;
+  padding: 2rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #253237;
+}
+
+.our-story-header {
+  height: 80vh;
+  background-image: url("../img/turbines.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.our-story-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 40%;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.our-story-heading h1 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.our-story-heading p {
+  font-size: 1.5rem;
+  width: 70%;
+}
+
+.our-story-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem 2rem;
+  background-color: white;
+}
+
+.our-story-intro .our-story-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 4rem;
+}
+
+.our-story-intro .our-story-text h3 {
+  color: #4d194d;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.our-story-intro .our-story-text p {
+  font-size: 1.4rem;
+}
+
+.our-story-intro .team-pic {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.bright-ideas {
+  background-color: #dee2e6;
+}
+
+.bright-ideas .bulb-pic {
+  width: 100%;
+}
+
+.bright-ideas .bright-ideas-text {
+  text-align: center;
+  padding: 3rem 0 0 0;
+}
+
+.bright-ideas .bright-ideas-text h3 {
+  color: #4d194d;
+  font-size: 1.6rem;
+  margin: 0 0 2rem 0;
+}
+
+.bright-ideas .bright-ideas-text p {
+  font-size: 1.4rem;
+  width: 70%;
+  margin: 3rem auto;
+}
+
+.bright-ideas .bright-ideas-subtext {
+  text-align: center;
+  padding: 2rem;
+}
+
+.bright-ideas .bright-ideas-subtext h3 {
+  color: #4d194d;
+  font-size: 1.6rem;
+  margin: 0 0 2rem 0;
+}
+
+.bright-ideas .bright-ideas-subtext p {
+  font-size: 1.4rem;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0 0 2rem;
+}
+
+.began {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6rem 2rem;
+  background-color: white;
+}
+
+.began .began-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 4rem;
+}
+
+.began .began-text h3 {
+  color: #4d194d;
+  font-size: 1.6rem;
+  margin: 2rem 0;
+}
+
+.began .began-text p {
+  font-size: 1.4rem;
+}
+
+.began .began-pic {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3rem 0;
+}
+
+.features .card {
+  width: 30%;
+  padding: 0;
+  margin: 1rem;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.features .card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.features .card .card-text {
+  padding: 2rem;
+}
+
+.features .card .card-text h4 {
+  color: #4d194d;
+  padding: 1rem 1rem 1rem 0;
+  font-size: 2rem;
+}
+
+.features .card .card-text p {
+  font-size: 1.1rem;
+  width: 80%;
+  margin-bottom: 4rem;
+}
+
+.features .card .card-text a {
+  text-decoration: none;
+  background-color: #4d194d;
+  color: white;
+  padding: 0.8rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.features .card .card-text a:hover {
+  background-color: rgba(77, 25, 77, 0.9);
+  border-bottom: 2px solid #4d194d;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=styles.css.map */

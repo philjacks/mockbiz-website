@@ -204,6 +204,379 @@ footer {
   color: white;
 }
 
+@media screen and (max-width: 1089px) {
+  .home-header {
+    height: 60vh;
+  }
+  .desk-nav {
+    padding: 0;
+  }
+  .pages-nav {
+    padding: 1rem;
+  }
+  .make-deal {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    background-size: 80%;
+    background-position: center;
+  }
+  .make-deal .choice-text {
+    border: none;
+    width: 100%;
+  }
+  .nav-items {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 15vh;
+    background-color: rgba(77, 25, 77, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid #4d194d;
+    border-radius: 20px 0 0 20px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  .nav-items li {
+    margin: 4rem auto;
+  }
+  .nav-items li a {
+    opacity: 1;
+  }
+  .mob-icon {
+    display: block;
+  }
+  .mob-nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .flipped {
+    opacity: 1;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  .design-section h2 {
+    width: 60%;
+    margin-top: 1rem;
+  }
+  .design-section .design-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .design-section .design-content img {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .design-section .design-content .design-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .market-section h2 {
+    width: 60%;
+    margin-top: 1rem;
+  }
+  .market-section .market-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .market-section .market-content img {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .market-section .market-content .desk-img {
+    display: none;
+  }
+  .market-section .market-content .mob-img {
+    display: block;
+  }
+  .market-section .market-content .market-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .our-story-header {
+    height: 60vh;
+  }
+  .our-story-header h1 {
+    font-size: 2.2rem;
+  }
+  .our-story-intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 3rem 2rem;
+  }
+  .our-story-intro .our-story-text {
+    margin: 0;
+  }
+  .our-story-intro .team-pic {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .began {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 2rem;
+  }
+  .began .began-pic {
+    width: 100vw;
+    margin-bottom: 2rem;
+    border-radius: 0;
+  }
+  .began .began-text {
+    margin: 0;
+    width: 70%;
+  }
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features .card {
+    width: 70%;
+  }
+  .faq-header {
+    height: 40vh;
+  }
+  .accordian-outer .accordian {
+    width: 80%;
+    margin: 4rem 1rem;
+  }
+  .accordian-outer .accordian details {
+    width: 100%;
+  }
+  .accordian-outer .accordian summary {
+    font-size: 1rem;
+  }
+  .accordian-outer .accordian .chevron {
+    width: 0.5rem;
+  }
+  .accordian-outer .accordian .active {
+    font-size: 1.3rem;
+  }
+  .accordian-outer .accordian p {
+    font-size: 1rem;
+  }
+  .grid-form {
+    width: 90vw;
+  }
+  .find-us {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .find-us #map {
+    width: 90vw;
+  }
+  .find-us .address {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .jumbo {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .trustpilot {
+    padding: 2rem 0;
+  }
+  .trustpilot h2 {
+    font-size: 2rem;
+    width: 70%;
+    margin: 0 auto 1rem;
+    color: #253237;
+  }
+  .trustpilot #tp-logo {
+    width: 10rem;
+  }
+  .trustpilot .carousel-wrap {
+    width: 100%;
+  }
+  .trustpilot .carousel-wrap .carousel-container {
+    width: 350px;
+  }
+  .trustpilot .carousel-wrap .carousel-container .card {
+    width: 375px;
+  }
+  .trustpilot #prev-arrow {
+    width: 20px;
+    height: 20px;
+    margin: 0.2rem;
+  }
+  .trustpilot #next-arrow {
+    width: 20px;
+    height: 20px;
+    margin: 0.2rem;
+  }
+  .mail-list #mail-list-email {
+    width: 18rem;
+  }
+  .make-deal {
+    text-align: left;
+    padding: 1rem;
+  }
+  .make-deal .choice-text h3 {
+    font-size: 2rem;
+  }
+  .make-deal .choice-text .caption {
+    font-size: 1.6rem;
+  }
+  .card h2 {
+    margin: 0 0 1rem;
+  }
+  .services-heading p {
+    display: none;
+  }
+  .statement p {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .design-section h2 {
+    width: 100%;
+  }
+  .design-section .design-content img {
+    width: 120%;
+    margin-bottom: 2rem;
+  }
+  .design-section .design-content .design-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .market-section h2 {
+    width: 100%;
+  }
+  .market-section .market-content img {
+    width: 120%;
+    margin-bottom: 2rem;
+  }
+  .market-section .market-content .market-text {
+    margin-right: 0;
+    text-align: center;
+  }
+  .our-story-body h2 {
+    width: 80%;
+  }
+  .our-story-body p {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+  .our-story-header {
+    height: 40vh;
+  }
+  .our-story-header h1 {
+    display: none;
+  }
+  .our-story-intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem 2rem;
+  }
+  .our-story-intro .our-story-text {
+    margin: 0;
+  }
+  .our-story-intro .team-pic {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .bright-ideas .bright-ideas-text {
+    padding: 2rem;
+  }
+  .bright-ideas .bright-ideas-text h3 {
+    margin-bottom: 2rem;
+  }
+  .bright-ideas .bright-ideas-text p {
+    width: 100%;
+    margin: 0;
+  }
+  .began {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 2rem;
+  }
+  .began .began-pic {
+    width: 100vw;
+    margin-bottom: 2rem;
+    border-radius: 0;
+  }
+  .began .began-text {
+    margin: 0;
+    width: 90%;
+  }
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features .card {
+    width: 90%;
+  }
+  .faq-header {
+    background-position: center;
+  }
+  .contact-header {
+    height: 40vh;
+  }
+}
+
 .home-header {
   height: 90vh;
   background-color: rgba(77, 25, 77, 0.3);
@@ -1118,5 +1491,378 @@ summary:hover {
 
 .find-us .address p {
   color: white;
+}
+
+@media screen and (max-width: 1089px) {
+  .home-header {
+    height: 60vh;
+  }
+  .desk-nav {
+    padding: 0;
+  }
+  .pages-nav {
+    padding: 1rem;
+  }
+  .make-deal {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    background-size: 80%;
+    background-position: center;
+  }
+  .make-deal .choice-text {
+    border: none;
+    width: 100%;
+  }
+  .nav-items {
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 15vh;
+    background-color: rgba(77, 25, 77, 0.8);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border: 2px solid #4d194d;
+    border-radius: 20px 0 0 20px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  .nav-items li {
+    margin: 4rem auto;
+  }
+  .nav-items li a {
+    opacity: 1;
+  }
+  .mob-icon {
+    display: block;
+  }
+  .mob-nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .flipped {
+    opacity: 1;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  .design-section h2 {
+    width: 60%;
+    margin-top: 1rem;
+  }
+  .design-section .design-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .design-section .design-content img {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .design-section .design-content .design-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .market-section h2 {
+    width: 60%;
+    margin-top: 1rem;
+  }
+  .market-section .market-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .market-section .market-content img {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .market-section .market-content .desk-img {
+    display: none;
+  }
+  .market-section .market-content .mob-img {
+    display: block;
+  }
+  .market-section .market-content .market-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .our-story-header {
+    height: 60vh;
+  }
+  .our-story-header h1 {
+    font-size: 2.2rem;
+  }
+  .our-story-intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 3rem 2rem;
+  }
+  .our-story-intro .our-story-text {
+    margin: 0;
+  }
+  .our-story-intro .team-pic {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .began {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 2rem;
+  }
+  .began .began-pic {
+    width: 100vw;
+    margin-bottom: 2rem;
+    border-radius: 0;
+  }
+  .began .began-text {
+    margin: 0;
+    width: 70%;
+  }
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features .card {
+    width: 70%;
+  }
+  .faq-header {
+    height: 40vh;
+  }
+  .accordian-outer .accordian {
+    width: 80%;
+    margin: 4rem 1rem;
+  }
+  .accordian-outer .accordian details {
+    width: 100%;
+  }
+  .accordian-outer .accordian summary {
+    font-size: 1rem;
+  }
+  .accordian-outer .accordian .chevron {
+    width: 0.5rem;
+  }
+  .accordian-outer .accordian .active {
+    font-size: 1.3rem;
+  }
+  .accordian-outer .accordian p {
+    font-size: 1rem;
+  }
+  .grid-form {
+    width: 90vw;
+  }
+  .find-us {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .find-us #map {
+    width: 90vw;
+  }
+  .find-us .address {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 619px) {
+  .jumbo {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .trustpilot {
+    padding: 2rem 0;
+  }
+  .trustpilot h2 {
+    font-size: 2rem;
+    width: 70%;
+    margin: 0 auto 1rem;
+    color: #253237;
+  }
+  .trustpilot #tp-logo {
+    width: 10rem;
+  }
+  .trustpilot .carousel-wrap {
+    width: 100%;
+  }
+  .trustpilot .carousel-wrap .carousel-container {
+    width: 350px;
+  }
+  .trustpilot .carousel-wrap .carousel-container .card {
+    width: 375px;
+  }
+  .trustpilot #prev-arrow {
+    width: 20px;
+    height: 20px;
+    margin: 0.2rem;
+  }
+  .trustpilot #next-arrow {
+    width: 20px;
+    height: 20px;
+    margin: 0.2rem;
+  }
+  .mail-list #mail-list-email {
+    width: 18rem;
+  }
+  .make-deal {
+    text-align: left;
+    padding: 1rem;
+  }
+  .make-deal .choice-text h3 {
+    font-size: 2rem;
+  }
+  .make-deal .choice-text .caption {
+    font-size: 1.6rem;
+  }
+  .card h2 {
+    margin: 0 0 1rem;
+  }
+  .services-heading p {
+    display: none;
+  }
+  .statement p {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+  .design-section h2 {
+    width: 100%;
+  }
+  .design-section .design-content img {
+    width: 120%;
+    margin-bottom: 2rem;
+  }
+  .design-section .design-content .design-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .market-section h2 {
+    width: 100%;
+  }
+  .market-section .market-content img {
+    width: 120%;
+    margin-bottom: 2rem;
+  }
+  .market-section .market-content .market-text {
+    margin-right: 0;
+    text-align: center;
+  }
+  .our-story-body h2 {
+    width: 80%;
+  }
+  .our-story-body p {
+    font-size: 1rem !important;
+    width: 100% !important;
+  }
+  .our-story-header {
+    height: 40vh;
+  }
+  .our-story-header h1 {
+    display: none;
+  }
+  .our-story-intro {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem 2rem;
+  }
+  .our-story-intro .our-story-text {
+    margin: 0;
+  }
+  .our-story-intro .team-pic {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .bright-ideas .bright-ideas-text {
+    padding: 2rem;
+  }
+  .bright-ideas .bright-ideas-text h3 {
+    margin-bottom: 2rem;
+  }
+  .bright-ideas .bright-ideas-text p {
+    width: 100%;
+    margin: 0;
+  }
+  .began {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 2rem;
+  }
+  .began .began-pic {
+    width: 100vw;
+    margin-bottom: 2rem;
+    border-radius: 0;
+  }
+  .began .began-text {
+    margin: 0;
+    width: 90%;
+  }
+  .features {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features .card {
+    width: 90%;
+  }
+  .faq-header {
+    background-position: center;
+  }
+  .contact-header {
+    height: 40vh;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

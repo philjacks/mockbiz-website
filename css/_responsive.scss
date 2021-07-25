@@ -3,6 +3,15 @@
   .home-header {
     height: 60vh;
   }
+
+  .home-heading {
+    width: 70%;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
   .desk-nav {
     padding: 0;
   }
@@ -222,6 +231,14 @@
   }
 
   // HOME
+  .home-heading {
+    width: 90%;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+  }
+
   .trustpilot {
     padding: 2rem 0;
 

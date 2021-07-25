@@ -10,6 +10,30 @@
   border-radius: 0 0 15rem 0;
 }
 
+.home-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 35%;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  color: white;
+  letter-spacing: 1px;
+
+  h1 {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    width: 70%;
+  }
+}
+
 #home {
   text-decoration: none;
   color: white;

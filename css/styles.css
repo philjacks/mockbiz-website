@@ -213,9 +213,14 @@ footer {
   }
   .home-heading {
     width: 70%;
+    top: 50%;
+    padding: 0;
   }
   .home-heading h1 {
     font-size: 2rem;
+  }
+  .home-heading p {
+    font-size: 1rem;
   }
   .desk-nav {
     padding: 0;
@@ -439,9 +444,13 @@ footer {
   }
   .home-heading {
     width: 90%;
+    background-color: transparent;
   }
   .home-heading h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
+  }
+  .home-heading p {
+    display: none;
   }
   .trustpilot {
     padding: 2rem 0;
@@ -614,12 +623,15 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  top: 35%;
+  top: 40%;
   margin: 0 auto;
   text-align: center;
   width: 50%;
   color: white;
   letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 20px;
 }
 
 .home-heading h1 {
@@ -1528,9 +1540,14 @@ summary:hover {
   }
   .home-heading {
     width: 70%;
+    top: 50%;
+    padding: 0;
   }
   .home-heading h1 {
     font-size: 2rem;
+  }
+  .home-heading p {
+    font-size: 1rem;
   }
   .desk-nav {
     padding: 0;
@@ -1754,9 +1771,13 @@ summary:hover {
   }
   .home-heading {
     width: 90%;
+    background-color: transparent;
   }
   .home-heading h1 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
+  }
+  .home-heading p {
+    display: none;
   }
   .trustpilot {
     padding: 2rem 0;

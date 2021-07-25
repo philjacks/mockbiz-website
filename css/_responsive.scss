@@ -6,9 +6,15 @@
 
   .home-heading {
     width: 70%;
+    top: 50%;
+    padding: 0;
 
     h1 {
       font-size: 2rem;
+    }
+
+    p {
+      font-size: 1rem;
     }
   }
 
@@ -233,9 +239,14 @@
   // HOME
   .home-heading {
     width: 90%;
+    background-color: transparent;
 
     h1 {
-      margin-bottom: 1rem;
+      margin-bottom: 0.1rem;
+    }
+
+    p {
+      display: none;
     }
   }
 

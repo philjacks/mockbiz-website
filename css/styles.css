@@ -227,6 +227,9 @@ footer {
   .pages-nav {
     padding: 1rem;
   }
+  .trustpilot .main-carousel {
+    width: 85%;
+  }
   .make-deal {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -460,6 +463,9 @@ footer {
   .trustpilot #tp-logo {
     width: 10rem;
   }
+  .trustpilot .main-carousel {
+    width: 95%;
+  }
   .trustpilot .main-carousel .card {
     width: 90%;
     margin: 1rem;
@@ -653,6 +659,7 @@ footer {
 
 .trustpilot .main-carousel {
   margin: 1rem auto;
+  width: 75%;
 }
 
 .trustpilot .main-carousel .card {
@@ -1504,6 +1511,9 @@ summary:hover {
   .pages-nav {
     padding: 1rem;
   }
+  .trustpilot .main-carousel {
+    width: 85%;
+  }
   .make-deal {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -1736,6 +1746,9 @@ summary:hover {
   }
   .trustpilot #tp-logo {
     width: 10rem;
+  }
+  .trustpilot .main-carousel {
+    width: 95%;
   }
   .trustpilot .main-carousel .card {
     width: 90%;

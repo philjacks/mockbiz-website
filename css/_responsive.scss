@@ -25,6 +25,12 @@
     padding: 1rem;
   }
 
+  .trustpilot {
+    .main-carousel {
+      width: 85%;
+    }
+  }
+
   .make-deal {
     align-items: center;
     text-align: center;
@@ -264,6 +270,8 @@
     }
 
     .main-carousel {
+      width: 95%;
+
       .card {
         width: 90%;
         margin: 1rem;

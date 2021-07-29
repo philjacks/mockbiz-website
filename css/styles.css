@@ -660,6 +660,7 @@ footer {
 .trustpilot .main-carousel {
   margin: 1rem auto;
   width: 75%;
+  height: 100%;
 }
 
 .trustpilot .main-carousel .card {

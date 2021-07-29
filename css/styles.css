@@ -466,7 +466,7 @@ footer {
   .trustpilot .main-carousel {
     width: 95%;
   }
-  .trustpilot .main-carousel .card {
+  .trustpilot .main-carousel .carousel-cell {
     width: 90%;
     margin: 1rem;
   }
@@ -662,7 +662,7 @@ footer {
   width: 75%;
 }
 
-.trustpilot .main-carousel .card {
+.trustpilot .main-carousel .carousel-cell {
   position: relative;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -1750,7 +1750,7 @@ summary:hover {
   .trustpilot .main-carousel {
     width: 95%;
   }
-  .trustpilot .main-carousel .card {
+  .trustpilot .main-carousel .carousel-cell {
     width: 90%;
     margin: 1rem;
   }

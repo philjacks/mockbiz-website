@@ -1,9 +1,3 @@
-// // Flickity Carousel
-// const carousel = document.querySelector('.main-carousel')
-
-// const flkty = new Flickity(carousel, {
-//   wrapAround: true,
-// })
 
 
 // Mailing List Authentication 

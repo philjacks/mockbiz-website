@@ -3,8 +3,6 @@ const carousel = document.querySelector('.main-carousel')
 
 const flkty = new Flickity(carousel, {
   wrapAround: true,
-  adaptiveHeight: true
-
 })
 
 

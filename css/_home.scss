@@ -61,43 +61,19 @@
     color: $primary-color;
   }
 
-  .carousel-wrap {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .main-carousel {
+    margin: 1rem auto;
 
-    .carousel-container {
-      width: 1425px;
-      overflow: hidden;
-      margin-bottom: 0.5rem;
-
-      .carousel-slider {
-        display: flex;
-
-        .card {
-          position: relative;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-          border-radius: 5px;
-          margin: 0.5rem;
-        }
-      }
+    .card {
+      position: relative;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      border-radius: 5px;
+      margin: 0.5rem;
     }
   }
 
-  .arrow {
-    z-index: 3;
-    height: 30px;
-    width: 30px;
-    margin: 1rem;
-    filter: invert(46%) sepia(25%) saturate(172%) hue-rotate(166deg)
-      brightness(91%) contrast(85%);
-  }
-
-  .arrow:hover {
-    cursor: pointer;
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(241deg)
-      brightness(100%) contrast(104%);
+  #rating {
+    margin-top: 2rem;
   }
 }
 

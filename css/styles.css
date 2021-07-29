@@ -108,10 +108,9 @@ body {
 }
 
 .btn:hover {
-  background-color: rgba(77, 25, 77, 0.9);
-  border-bottom: 2px solid #4d194d;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  background-color: rgba(121, 60, 121, 0.9);
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
   cursor: pointer;
 }
 
@@ -261,12 +260,10 @@ footer {
             justify-content: center;
     border: 2px solid #4d194d;
     border-radius: 20px 0 0 20px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
-    -webkit-transition: -webkit-transform 0.3s ease-in-out;
-    transition: -webkit-transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
   .nav-items li {
     margin: 4rem auto;
@@ -443,7 +440,6 @@ footer {
             flex-direction: column;
   }
   .home-heading {
-    width: 90%;
     background-color: transparent;
   }
   .home-heading h1 {
@@ -464,24 +460,9 @@ footer {
   .trustpilot #tp-logo {
     width: 10rem;
   }
-  .trustpilot .carousel-wrap {
-    width: 100%;
-  }
-  .trustpilot .carousel-wrap .carousel-container {
-    width: 350px;
-  }
-  .trustpilot .carousel-wrap .carousel-container .card {
-    width: 375px;
-  }
-  .trustpilot #prev-arrow {
-    width: 20px;
-    height: 20px;
-    margin: 0.2rem;
-  }
-  .trustpilot #next-arrow {
-    width: 20px;
-    height: 20px;
-    margin: 0.2rem;
+  .trustpilot .main-carousel .card {
+    width: 90%;
+    margin: 1rem;
   }
   .mail-list #mail-list-email {
     width: 18rem;
@@ -670,32 +651,11 @@ footer {
   color: #4d194d;
 }
 
-.trustpilot .carousel-wrap {
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.trustpilot .main-carousel {
+  margin: 1rem auto;
 }
 
-.trustpilot .carousel-wrap .carousel-container {
-  width: 1425px;
-  overflow: hidden;
-  margin-bottom: 0.5rem;
-}
-
-.trustpilot .carousel-wrap .carousel-container .carousel-slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.trustpilot .carousel-wrap .carousel-container .carousel-slider .card {
+.trustpilot .main-carousel .card {
   position: relative;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -703,19 +663,8 @@ footer {
   margin: 0.5rem;
 }
 
-.trustpilot .arrow {
-  z-index: 3;
-  height: 30px;
-  width: 30px;
-  margin: 1rem;
-  -webkit-filter: invert(46%) sepia(25%) saturate(172%) hue-rotate(166deg) brightness(91%) contrast(85%);
-          filter: invert(46%) sepia(25%) saturate(172%) hue-rotate(166deg) brightness(91%) contrast(85%);
-}
-
-.trustpilot .arrow:hover {
-  cursor: pointer;
-  -webkit-filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(241deg) brightness(100%) contrast(104%);
-          filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(241deg) brightness(100%) contrast(104%);
+.trustpilot #rating {
+  margin-top: 2rem;
 }
 
 .mail-list {
@@ -1588,12 +1537,10 @@ summary:hover {
             justify-content: center;
     border: 2px solid #4d194d;
     border-radius: 20px 0 0 20px;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
     -webkit-transform: translateX(100%);
             transform: translateX(100%);
-    -webkit-transition: -webkit-transform 0.3s ease-in-out;
-    transition: -webkit-transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
   .nav-items li {
     margin: 4rem auto;
@@ -1770,7 +1717,6 @@ summary:hover {
             flex-direction: column;
   }
   .home-heading {
-    width: 90%;
     background-color: transparent;
   }
   .home-heading h1 {
@@ -1791,24 +1737,9 @@ summary:hover {
   .trustpilot #tp-logo {
     width: 10rem;
   }
-  .trustpilot .carousel-wrap {
-    width: 100%;
-  }
-  .trustpilot .carousel-wrap .carousel-container {
-    width: 350px;
-  }
-  .trustpilot .carousel-wrap .carousel-container .card {
-    width: 375px;
-  }
-  .trustpilot #prev-arrow {
-    width: 20px;
-    height: 20px;
-    margin: 0.2rem;
-  }
-  .trustpilot #next-arrow {
-    width: 20px;
-    height: 20px;
-    margin: 0.2rem;
+  .trustpilot .main-carousel .card {
+    width: 90%;
+    margin: 1rem;
   }
   .mail-list #mail-list-email {
     width: 18rem;

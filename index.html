@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>Mockbiz | Home</title>
@@ -30,7 +33,7 @@
       <div class="home-heading">
         <h1>WELCOME TO MOCKBIZ</h1>
         <p>We can help take your business to the next level</p>
-        <button class="btn">Contact Us Now</button>
+        <a class="btn" href="pages/contact.html">Contact Us Now</a>
       </div>
     </header>
 
@@ -39,45 +42,18 @@
         <h2>See what our <span>clients</span> say about us</h2>
         <img src="img/trustpilot-logo.png" alt="" id="tp-logo" />
 
-        <div class="carousel-wrap">
-          <img
-            src="img/icons/arrow-left.svg"
-            alt=""
-            class="arrow"
-            id="prev-arrow"
-          />
-          <div class="carousel-container">
-            <div class="carousel-slider">
-              <img
-                src="img/cards/card6.jpg"
-                id="last-clone"
-                class="card"
-                alt=""
-              />
-              <img src="img/cards/card1.jpg" alt="" class="card" />
-              <img src="img/cards/card2.jpg" alt="" class="card" />
-              <img src="img/cards/card3.jpg" alt="" class="card" />
-              <img src="img/cards/card4.jpg" alt="" class="card" />
-              <img src="img/cards/card5.jpg" alt="" class="card" />
-              <img src="img/cards/card6.jpg" alt="" class="card" />
-              <img
-                src="img/cards/card1.jpg"
-                id="first-clone"
-                class="card"
-                alt=""
-              />
-              <img src="img/cards/card2.jpg" id="" class="card" alt="" />
-            </div>
-          </div>
-          <img
-            src="img/icons/arrow-right.svg"
-            alt=""
-            class="arrow"
-            id="next-arrow"
-          />
+        <div class="main-carousel">
+          <img src="img/cards/card1.jpg" alt="" class="card" />
+          <img src="img/cards/card2.jpg" alt="" class="card carousel-cell" />
+          <img src="img/cards/card3.jpg" alt="" class="card carousel-cell" />
+          <img src="img/cards/card4.jpg" alt="" class="card carousel-cell" />
+          <img src="img/cards/card5.jpg" alt="" class="card carousel-cell" />
+          <img src="img/cards/card6.jpg" alt="" class="card carousel-cell" />
         </div>
 
-        <p>Rated <strong>4.9</strong> / 5 based on <u>18,321 reviews.</u></p>
+        <p id="rating">
+          Rated <strong>4.9</strong> / 5 based on <u>18,321 reviews.</u>
+        </p>
       </section>
 
       <section>
@@ -125,6 +101,7 @@
       <p>&copy; 2021 | Created by <a href="www.philjacks.com">Phil Jacks</a></p>
     </div>
 
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="js/index.js"></script>
     <script src="js/nav.js"></script>
   </body>

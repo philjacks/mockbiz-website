@@ -50,8 +50,8 @@
     justify-content: center;
     border: 2px solid $primary-color;
     border-radius: 20px 0 0 20px;
+    transition: 0.3s ease-in-out;
     transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
 
     li {
       margin: 4rem auto;
@@ -238,7 +238,6 @@
 
   // HOME
   .home-heading {
-    width: 90%;
     background-color: transparent;
 
     h1 {
@@ -264,27 +263,11 @@
       width: 10rem;
     }
 
-    .carousel-wrap {
-      width: 100%;
-
-      .carousel-container {
-        width: 350px;
-
-        .card {
-          width: 375px;
-        }
+    .main-carousel {
+      .card {
+        width: 90%;
+        margin: 1rem;
       }
-    }
-
-    #prev-arrow {
-      width: 20px;
-      height: 20px;
-      margin: 0.2rem;
-    }
-    #next-arrow {
-      width: 20px;
-      height: 20px;
-      margin: 0.2rem;
     }
   }
 

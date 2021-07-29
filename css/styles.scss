@@ -94,9 +94,8 @@ body {
   font-family: "Rubik", sans-serif;
 
   &:hover {
-    background-color: rgba(77, 25, 77, 0.9);
-    border-bottom: 2px solid $primary-color;
-    transform: scale(1.1);
+    background-color: rgba(121, 60, 121, 0.9);
+    transition: 0.2s ease-in;
     cursor: pointer;
   }
 }

@@ -1,69 +1,36 @@
-// Truspilot Carousel
-const carouselCont = document.querySelector(".carousel-container");
-const carouselSlider = document.querySelector(".carousel-slider");
-const cards = document.querySelectorAll(".card");
+// Flickity Carousel
+const carousel = document.querySelector('.main-carousel')
 
-const prevArrow = document.getElementById("prev-arrow");
-const nextArrow = document.getElementById("next-arrow");
+const flkty = new Flickity(carousel, {
+  wrapAround: true
 
-let counter = 1;
-let width = 474;
+})
 
-carouselSlider.style.transform = `translateX(-${width * counter}px`;
-
-prevArrow.addEventListener("click", () => {
-  if (counter <= 0) return;
-  carouselSlider.style.transition = "transform 0.4s ease-in-out";
-  counter--;
-  carouselSlider.style.transform = "translateX(" + -width * counter + "px)";
-});
-
-nextArrow.addEventListener("click", () => {
-  if (counter >= cards.length - 2) return;
-  carouselSlider.style.transition = "transform 0.4s ease-in-out";
-  counter++;
-  carouselSlider.style.transform = "translateX(" + -width * counter + "px)";
-});
-
-carouselSlider.addEventListener("transitionend", () => {
-  if (cards[counter].id === "last-clone") {
-    carouselSlider.style.transition = "none";
-    counter = cards.length - 3;
-    carouselSlider.style.transform = "translateX(" + -width * counter + "px)";
-  }
-
-  if (cards[counter].id === "first-clone") {
-    carouselSlider.style.transition = "none";
-    counter = cards.length - counter - 1;
-    carouselSlider.style.transform = "translateX(" + -width * counter + "px)";
-  }
-});
-
-// Reduce amount of cards for responsiveness
+// Reduce carousel width for responsiveness
 const media1 = window.matchMedia(`(max-width: 1550px)`);
-const media2 = window.matchMedia(`(max-width: 1070px)`);
+const media2 = window.matchMedia(`(max-width: 600px)`);
 const media3 = window.matchMedia(`(min-width: 1550px)`);
 
 
 const reduceCarouselSize1 = (media) => {
   if (media.matches) {
-    carouselCont.style.width = `950px`;
+    carousel.style.width = `95%`;
   } else {
-    carouselCont.style.width = `1425px`;
+    carousel.style.width = `90%`;
   }
 };
 
 const reduceCarouselSize2 = (media) => {
   if (media.matches) {
-    carouselCont.style.width = `475px`;
+    carousel.style.width = `99%`;
   } else {
-    carouselCont.style.width = `950px`;
+    carousel.style.width = `90%`;
   }
 };
 
 const increaseCarouselSize = (media) => {
   if (media.matches) {
-    carouselCont.style.width = `1425px`;
+    carousel.style.width = `75%`;
   }
 };
 
@@ -75,8 +42,6 @@ media3.addListener(increaseCarouselSize);
 reduceCarouselSize1(media1);
 reduceCarouselSize2(media2);
 increaseCarouselSize(media3);
-
-
 
 
 // Mailing List Authentication 
